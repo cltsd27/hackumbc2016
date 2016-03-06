@@ -81,6 +81,8 @@ class MyDialog(QtGui.QWizard):
         document.save('resume.docx')
         with open("dictionary.txt", "w") as f:
             f.write(str(self.ui.altSkills.toPlainText()))
+        dicList = str(self.ui.altSkills.toPlainText()).split()
+        jobDescList = str(self.ui.jobQualifications.toPlainText()).split()
 
 if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)

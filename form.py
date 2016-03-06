@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'form.ui'
 #
-# Created: Sat Mar  5 23:26:53 2016
+# Created: Sun Mar  6 01:37:11 2016
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -243,12 +243,21 @@ class Ui_Wizard(object):
         self.label_39.setGeometry(QtCore.QRect(20, 180, 651, 31))
         self.label_39.setObjectName(_fromUtf8("label_39"))
         self.label_40 = QtGui.QLabel(self.wizardPage_5)
-        self.label_40.setGeometry(QtCore.QRect(20, 240, 651, 31))
+        self.label_40.setGeometry(QtCore.QRect(20, 290, 651, 31))
         self.label_40.setObjectName(_fromUtf8("label_40"))
         self.pushButton = QtGui.QPushButton(self.wizardPage_5)
         self.pushButton.setGeometry(QtCore.QRect(500, 320, 131, 31))
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
+        self.label_41 = QtGui.QLabel(self.wizardPage_5)
+        self.label_41.setGeometry(QtCore.QRect(20, 230, 651, 31))
+        self.label_41.setObjectName(_fromUtf8("label_41"))
+        self.label_42 = QtGui.QLabel(self.wizardPage_5)
+        self.label_42.setGeometry(QtCore.QRect(20, 260, 651, 31))
+        self.label_42.setObjectName(_fromUtf8("label_42"))
         Wizard.addPage(self.wizardPage_5)
+        self.wizardPage_6 = QtGui.QWizardPage()
+        self.wizardPage_6.setObjectName(_fromUtf8("wizardPage_6"))
+        Wizard.addPage(self.wizardPage_6)
 
         self.retranslateUi(Wizard)
         QtCore.QMetaObject.connectSlotsByName(Wizard)
@@ -291,10 +300,12 @@ class Ui_Wizard(object):
         self.label_34.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">Great job! You\'re almost done. Before you hit make resume, make</span></p></body></html>", None))
         self.label_35.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">sure there\'s no typos and everything is correct and up to date.</span></p></body></html>", None))
         self.label_36.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">When you\'re done hit the button below and all you\'re info will be</span></p></body></html>", None))
-        self.label_37.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">put into a .doc file in a nice premade format! Use our format or </span></p></body></html>", None))
+        self.label_37.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">put into a .docx file in a nice premade format! Use our format or </span></p></body></html>", None))
         self.label_38.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">give it your own personal flair! Check out our website for a </span></p></body></html>", None))
         self.label_39.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">step-by-step guide and resources to help build your resume.</span></p></body></html>", None))
         self.label_40.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">Good luck!</span></p></body></html>", None))
         self.pushButton.setText(_translate("Wizard", "Make resume", None))
+        self.label_41.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">If you want to make your resume relevant to a specific job, go to</span></p></body></html>", None))
+        self.label_42.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">the next page.</span></p></body></html>", None))
 
 from PyKDE4.kdeui import KUrlLabel
