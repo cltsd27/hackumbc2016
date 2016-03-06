@@ -228,7 +228,7 @@
       <string>Graduate? Leave empty if still attending</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="school1">
      <property name="geometry">
       <rect>
        <x>12</x>
@@ -238,7 +238,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_2">
+    <widget class="QLineEdit" name="major1">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -248,7 +248,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_3">
+    <widget class="QLineEdit" name="schoolStart1">
      <property name="geometry">
       <rect>
        <x>370</x>
@@ -258,7 +258,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_4">
+    <widget class="QLineEdit" name="endSchool1">
      <property name="geometry">
       <rect>
        <x>370</x>

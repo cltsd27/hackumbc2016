@@ -39,8 +39,48 @@ class MyDialog(QtGui.QWizard):
         document.add_paragraph(
             str(self.ui.strongTech.toPlainText()), style="ListBullet"
         )
+        document.add_heading("Experience", 1)
+        if(str(self.ui.jobEnd1.text()) == ""):
+            jobEnd1 = "Present"
+        else:
+            jobEnd1 = str(self.ui.jobEnd1.text())
+        document.add_heading(str(self.ui.jobStart1.text()) + " - " +
+                             jobEnd1, 2)
+        p3 = document.add_paragraph(
+            str(self.ui.jobTitle1.text())
+        )
+        p3.add_run(", ")
+        p3.add_run(str(self.ui.orgName1.text())).italic = True
+        document.add_paragraph(
+            str(self.ui.jobDesc1.toPlainText())
+            )
+        document.add_heading("Personal Development", 1)
+        document.add_paragraph(
+            str(self.ui.personalDev1.toPlainText())
+            )
+        document.add_heading('Achievements', 1)
+        document.add_paragraph(
+            str(self.ui.achievements.toPlainText())
+            )
+        document.add_heading('References', 1)
+        document.add_paragraph(
+            str(self.ui.references.toPlainText())
+            )
+        document.add_heading('Education', 1)
+        if str(self.ui.endSchool1.text()) != "":
+            document.add_heading(str(self.ui.schoolStart1.text()) + " - "
+                                 + str(self.ui.endSchool1.text()), 2)
+        else:
+            document.add_heading(str(self.ui.schoolStart1.text()), 2)
+        p4 = document.add_paragraph(str(self.ui.major1.text()))
+        p4.add_run(", ")
+        p4.add_run(str(self.ui.school1.text())).italic = True
+        if self.ui.gpa1.value() != 0:
+            p4.add_run(", Current GPA: " + str(self.ui.gpa1.value()))
         document.add_page_break()
         document.save('resume.docx')
+        with open("dictionary.txt", "w") as f:
+            f.write(str(self.ui.altSkills.toPlainText()))
 
 if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)

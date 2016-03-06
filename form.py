@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'form.ui'
 #
-# Created: Sat Mar  5 21:32:39 2016
+# Created: Sat Mar  5 23:26:53 2016
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -86,18 +86,18 @@ class Ui_Wizard(object):
         self.label_12 = QtGui.QLabel(self.widget)
         self.label_12.setGeometry(QtCore.QRect(370, 90, 301, 21))
         self.label_12.setObjectName(_fromUtf8("label_12"))
-        self.lineEdit = QtGui.QLineEdit(self.widget)
-        self.lineEdit.setGeometry(QtCore.QRect(12, 40, 271, 31))
-        self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
-        self.lineEdit_2 = QtGui.QLineEdit(self.widget)
-        self.lineEdit_2.setGeometry(QtCore.QRect(10, 130, 271, 31))
-        self.lineEdit_2.setObjectName(_fromUtf8("lineEdit_2"))
-        self.lineEdit_3 = QtGui.QLineEdit(self.widget)
-        self.lineEdit_3.setGeometry(QtCore.QRect(370, 40, 271, 31))
-        self.lineEdit_3.setObjectName(_fromUtf8("lineEdit_3"))
-        self.lineEdit_4 = QtGui.QLineEdit(self.widget)
-        self.lineEdit_4.setGeometry(QtCore.QRect(370, 130, 271, 31))
-        self.lineEdit_4.setObjectName(_fromUtf8("lineEdit_4"))
+        self.school1 = QtGui.QLineEdit(self.widget)
+        self.school1.setGeometry(QtCore.QRect(12, 40, 271, 31))
+        self.school1.setObjectName(_fromUtf8("school1"))
+        self.major1 = QtGui.QLineEdit(self.widget)
+        self.major1.setGeometry(QtCore.QRect(10, 130, 271, 31))
+        self.major1.setObjectName(_fromUtf8("major1"))
+        self.schoolStart1 = QtGui.QLineEdit(self.widget)
+        self.schoolStart1.setGeometry(QtCore.QRect(370, 40, 271, 31))
+        self.schoolStart1.setObjectName(_fromUtf8("schoolStart1"))
+        self.endSchool1 = QtGui.QLineEdit(self.widget)
+        self.endSchool1.setGeometry(QtCore.QRect(370, 130, 271, 31))
+        self.endSchool1.setObjectName(_fromUtf8("endSchool1"))
         self.label_7 = QtGui.QLabel(self.wizardPage2)
         self.label_7.setGeometry(QtCore.QRect(280, 0, 68, 21))
         self.label_7.setObjectName(_fromUtf8("label_7"))
