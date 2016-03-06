@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'form.ui'
 #
-# Created: Sun Mar  6 01:37:11 2016
+# Created: Sun Mar  6 01:58:06 2016
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -257,6 +257,15 @@ class Ui_Wizard(object):
         Wizard.addPage(self.wizardPage_5)
         self.wizardPage_6 = QtGui.QWizardPage()
         self.wizardPage_6.setObjectName(_fromUtf8("wizardPage_6"))
+        self.jobQualifications = QtGui.QPlainTextEdit(self.wizardPage_6)
+        self.jobQualifications.setGeometry(QtCore.QRect(20, 40, 641, 271))
+        self.jobQualifications.setObjectName(_fromUtf8("jobQualifications"))
+        self.label_33 = QtGui.QLabel(self.wizardPage_6)
+        self.label_33.setGeometry(QtCore.QRect(20, 10, 681, 21))
+        self.label_33.setObjectName(_fromUtf8("label_33"))
+        self.pushButton_2 = QtGui.QPushButton(self.wizardPage_6)
+        self.pushButton_2.setGeometry(QtCore.QRect(520, 320, 141, 29))
+        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
         Wizard.addPage(self.wizardPage_6)
 
         self.retranslateUi(Wizard)
@@ -307,5 +316,7 @@ class Ui_Wizard(object):
         self.pushButton.setText(_translate("Wizard", "Make resume", None))
         self.label_41.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">If you want to make your resume relevant to a specific job, go to</span></p></body></html>", None))
         self.label_42.setText(_translate("Wizard", "<html><head/><body><p><span style=\" font-size:16pt;\">the next page.</span></p></body></html>", None))
+        self.label_33.setText(_translate("Wizard", "Paste a job description/qualifications in here. I\'ll try to filter relevant keywords based on your skills", None))
+        self.pushButton_2.setText(_translate("Wizard", "Make Smart Resume", None))
 
 from PyKDE4.kdeui import KUrlLabel
