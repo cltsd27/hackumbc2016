@@ -105,7 +105,8 @@ body {
     float: left;
   }
   .nav-pills {
-    float:center;    
+    float:center;
+      font-weight: bold;
   }
     }
 
