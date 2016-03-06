@@ -1,0 +1,16 @@
+from docx import Document
+with open("dictionary.txt", "r") as dic:
+    with open("job_description.txt", "r") as jobDesc:
+        document = Document('resume.docx')
+        description = jobDesc.read()
+        dictionary = dic.read()
+        dicList = dictionary.split()
+        descList = description.split(description)
+        print(document.text())
+        for descWord in descList:
+            for dicWord in dicList:
+                if dicWord == descWord:
+                    addWord = input("Matched word!\nWould you like to add the"
+                          + " word to your resume?")
+                    
+                    
